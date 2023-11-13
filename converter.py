@@ -1,19 +1,3 @@
-"""
-Goals:
-- Download YT Video --- DONE
-- Convert YouTube link to ogg -- DONE
-- Choose conversion type -- DONE
-- Allow selecting of a file and converting -- DONE
-- Checks if filename already exists and appends number next to it
-- Storing User information -- JSON? Maybe have a setup screen
-- Show YT information before downloading
-
--BONUS
-- Setup loading bar? (on_progress function?)
-- Better File path system. -- Look into tkinter filedialog/.withdraw
-- Instead of user input use args? run directly from console?
-ex: python3 converter.py --path --YouTube link
-"""
 from pydub import AudioSegment  # Used for editing audio
 from pytube import YouTube      # Used for downloading YT Video
 import pytube.exceptions        # Used for pytube specific exceptions
