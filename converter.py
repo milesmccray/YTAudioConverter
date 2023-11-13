@@ -92,7 +92,7 @@ def start_program():
 	os.system('clear||cls')  # clears terminal depending on OS
 	choice = input("===== Welcome to Miles' Audio Converter ====="
 				   '\n1) Convert from YouTube URL'
-				   '\n2) Convert from Existing File'
+				   '\n2) Convert from an Existing File'
 				   '\n\n>>> ')
 	if choice == '1':
 		os.system('clear||cls')
